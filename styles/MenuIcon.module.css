@@ -1,0 +1,60 @@
+.Icon{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.one,.two,.three{
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    background-color: white;
+}
+.one{
+    top:0
+}
+.two{
+    top: 12px;
+}
+.three{
+    top: 24px;
+}
+.oneTransform{
+    transform: rotate(45deg) translate(10px,10px);
+    transition: all 0.8s ease-in;
+    background: red;
+    border-radius: 15px;
+}
+.twoTransform{
+    transform: rotate(-45deg) translate(-2px,1px);
+    transition: all 0.8s ease-in;
+    background: red;
+    border-radius: 15px;
+}
+.threeTransform{
+    transform: translate(0,10px);
+    transition: all 0.8s ease-in;
+    background: red
+}
+.oneNormal{
+    transform: rotate(0) translate(0,0);
+    transition: all 1s ease;
+    background: #fff;
+    border-radius: 0px;
+}
+.twoNormal{
+    transform: rotate(0) translate(0,0);
+    transition: all 1s ease;
+    background: #fff;
+    border-radius: 0px;
+}
+.threeNormal{
+    transform: translate(0,0);
+    transition: all 1s ease;
+    
+}
+
+.test {
+    background-color: red;
+}
